@@ -74,6 +74,7 @@ header nav ul li button {
 }
 .trending{
     margin-left: 30px;
+    border-bottom: 1px gray solid
 }
 .forTrending {
     display: flex;
@@ -119,4 +120,45 @@ h3{
 .trending article img  {
     max-width: 100%;
     height: auto;
+}
+.column{
+    display: flex
+;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+ 
+.column article{
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 7px;
+}
+
+.forDate button{
+    border: none;
+}
+.forBookmark{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+main{
+    position: relative;
+    width: 80%;
+}
+.forImage{
+ position: absolute;
+ top: 0;
+ right: 245px;
+
+}
+.forImage img{
+height: 123px;
+margin: 7px;
 }
